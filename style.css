@@ -1,0 +1,180 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+    font-style: normal;
+}
+#navbar{
+    background: #7a7272;
+    box-shadow: 0 0 8px -10pc #1e0303;
+    padding: 15px 25px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0  auto;
+}
+main{
+    width: 100%;
+    max-width: 600px;
+    margin: 0  auto;
+
+}
+main article {
+    width: 100%;
+    background: #e9e9e9;
+    margin: 20px 20px 0 0;
+    border-radius: 2px;
+    box-shadow: 0 0 8px -1px #1e0303;
+    display: grid;
+    
+}
+
+main article img{
+    width: 100%;
+    border-radius: 1px 1px 0 0 ;
+    height: 100%;
+    object-fit: cover;
+}
+main article a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+}
+main article strong {
+ font-size: 22px;
+ margin-bottom: 20px;
+
+}
+main article i{
+    font-size: 22px;
+    margin-bottom: 20px;
+   
+   }
+
+#endPage{
+
+    border:0px solid blue
+}
+main button{
+    width: 4%;
+   
+    float: left;
+
+}
+.likebuton{
+    color: hsl(242deg 88.77% 24.03%);
+    width: 40%;
+    /* padding: 10px 20px; */
+    margin: -17px 0 0 8%;
+    margin-top: 10px;
+    border-radius: 8px;
+    float: left;
+   
+}
+.endereco {
+    font-size: 12px;
+    width: 100%;
+   
+    margin: 20px 20px 0 0;
+    border-radius: 8px;
+   
+    display: grid;
+
+}
+.endereco p {
+    font-size: 12px;
+    margin-bottom: 20px;
+
+}
+.caixalink{
+    width: 100%;
+   
+}
+.descricao {
+    margin: 5px;
+    text-align: -webkit-match-parent;
+    font-size: 96%;
+
+}
+#avatar img {
+   
+    margin-left: 10px;
+    width: 6%;
+    /* height: 10%; */
+    float: left;
+    border-radius: 100%;
+   
+}
+#usuario h1 {
+    float: left;
+    font-weight: 600;
+    font-size: 22px;
+    width: 80%;
+  
+    margin: -1px 3px 0 12px;
+    
+   
+}
+#usuario h2 {
+    float: left;
+    font-size: 10px;
+    width: 80%;
+ 
+    margin: -1px 3px 0 12px;
+    
+   
+}
+#usuario h3 {
+    float: right;
+    font-size: 10px;
+    /* width: 10%; */
+    /* background: #f1f1f1; */
+    margin: -21px 3px 0 12px;
+    
+   
+}
+#usuario i {
+    color: hsla(242,88.4%,45.3%,1);
+    float: right;
+    font-size: 29px;
+ 
+    margin: -12px 3px 0 12px;
+   
+}
+.endereco{
+    font-size: 12px;
+    width: 100%;
+    
+    margin: 20px 20px 0 0;
+    border-radius: 8px;
+    display: grid;
+
+
+}
+.endereco p {
+        /* font-size: 12px; */
+        width: 69%;
+        /* background: #f1f1f1; */
+        margin: -4% 30px -16% 15%;
+        /* border-radius: 8px; */
+        /* display: grid; */
+        /* float: right; */
+        /* justify-content: start; */
+        /* align-content: center; */
+        /* justify-items: center; */
+       
+
+}
+.endereco img {
+    font-size: 12px;
+    width: 11%;
+    /* background: #f1f1f1; */
+    /* margin: 20px 20px 0 0; */
+    border-radius: 99px;
+    /* display: grid; */
+    float: left;
+
+
+
+}
